@@ -7,7 +7,7 @@ def calculating_subnet(provided_ip, num_of_host):
 
     for i in range(1,32):
         w = 2 ** i
-        if w >= num_of_host:
+        if w -2 >= num_of_host:
             num_to_divide = i
             break
 
